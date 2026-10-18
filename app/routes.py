@@ -1,6 +1,5 @@
 from flask import Flask, jsonify, request
 from app.storage import save_student
-
 app = Flask(__name__)
 
 
